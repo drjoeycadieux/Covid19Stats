@@ -14,6 +14,13 @@ export default function App() {
       <Announcement />
 
       <h1> Covid-19 Stats</h1>
+      <iframe
+        width="800"
+        height="600"
+        frameborder="0"
+        allowfullscreen
+        src="https://arcg.is/0m9Syr"
+      ></iframe>
 
       <Features />
       <Footer />
