@@ -1,7 +1,6 @@
 import "./styles.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Features from "./views/Features";
 import Home from "./views/Home";
 import Announcement from "./components/Announcement";
 
@@ -21,8 +20,6 @@ export default function App() {
         allowfullscreen
         src="https://arcg.is/0m9Syr"
       ></iframe>
-
-      <Features />
       <Footer />
     </div>
   );
