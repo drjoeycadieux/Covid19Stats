@@ -1,10 +1,10 @@
 import React from "react";
-import "./styles.css";
 
 function Announcement() {
   return (
     <div>
       <h1> Announcement </h1>
+      <p> NEW! CovidMap Tracker! </p>
     </div>
   );
 }

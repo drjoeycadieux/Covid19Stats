@@ -41,7 +41,7 @@ class Navbar extends Component {
                 <MDBNavLink to="#!">Features</MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
-                <MDBNavLink to="#!">Pricing</MDBNavLink>
+                <MDBNavLink to="#!">MapCovid</MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
                 <MDBDropdown>
