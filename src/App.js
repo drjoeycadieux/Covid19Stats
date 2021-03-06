@@ -1,5 +1,4 @@
 import "./styles.css";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
 import Announcement from "./components/Announcement";
@@ -7,7 +6,6 @@ import Announcement from "./components/Announcement";
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
       <Home />
       <br />
       <Announcement />
