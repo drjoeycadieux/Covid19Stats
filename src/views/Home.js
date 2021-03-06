@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   return (
@@ -21,18 +22,22 @@ function Home() {
 
             <br />
 
-            <div class="mt-10 p-4 bg-red-600 rounded-lg shadow-md text-white text-left">
-              <v-alert
-                border="bottom"
-                colored-border
-                type="warning"
-                elevation="2"
-              >
-                Attention New health instructions and curfew in force throughout
-                Québec. Avoid travel and consult the measures that apply in your
-                region to learn the details. You can also consult all the
-                information on COVID‑19.
-              </v-alert>
+            <div class="alert-banner">
+              <strong>
+                <i class="fas fa-exclamation-triangle pr-1"></i> Attention
+              </strong>
+              <p class="mt-1">
+                For the most up to date information regarding COVID-19 in
+                Canada, please consult
+                <a
+                  class="border-b border-dotted"
+                  href="https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx"
+                >
+                  Canada Deptartment of Health
+                </a>
+                . This site should not be used for life saving information -
+                instead, rather, a source for numbers and statistics.
+              </p>
             </div>
           </div>
         </div>
