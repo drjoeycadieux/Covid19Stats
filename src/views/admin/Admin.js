@@ -1,6 +1,6 @@
 import React from "react";
 
-function Admin(admin) {
+function Admin(props) {
   return <h1>Hello, {admin.name}</h1>;
 }
 

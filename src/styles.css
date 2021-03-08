@@ -34,3 +34,8 @@ p#two {
   color: rgb(80, 80, 85);
   font-weight: sans-serif;
 }
+
+.btn {
+  color: rgb(253, 253, 253);
+  background-color: #0a44ff;
+}

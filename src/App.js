@@ -2,6 +2,7 @@ import "./styles.css";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
 import Announcement from "./components/Announcement";
+import Button from "./components/Button";
 
 export default function App() {
   return (
@@ -9,6 +10,8 @@ export default function App() {
       <Home />
       <br />
       <Announcement />
+
+      <Button />
 
       <h1> Covid-19 Stats</h1>
       <iframe
