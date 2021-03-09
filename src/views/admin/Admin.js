@@ -1,7 +1,9 @@
 import React from "react";
 
-function Admin(props) {
-  return <h1>Hello, {admin.name}</h1>;
+export default function Admin() {
+  return (
+    <div>
+      <h1> Admin Page </h1>
+    </div>
+  );
 }
-
-export default Admin;
