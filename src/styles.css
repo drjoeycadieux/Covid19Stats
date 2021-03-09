@@ -71,3 +71,23 @@ body {
   font-size: 36px;
   padding: 20px;
 }
+
+.AlertBanner {
+  padding: 10px;
+  background-color: firebrick;
+  color: #fff;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1.text {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
