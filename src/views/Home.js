@@ -17,7 +17,7 @@ function Home() {
               >
                 Canada Deptartment of Health
               </a>
-              &middot; Last updated 3/08/2021 10:05 a.m.
+              &middot; Last updated 3/09/2021 10:05 a.m.
             </h4>
 
             <br />
