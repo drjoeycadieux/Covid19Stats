@@ -1,12 +1,25 @@
 import React from "react";
-import "./styles.css";
+import { MDBBreadcrumb, MDBBreadcrumbItem, MDBContainer } from "mdbreact";
 
-function Library() {
+const Library = () => {
   return (
-    <div>
-      <h1> Library </h1>
-    </div>
+    <MDBContainer>
+      <MDBBreadcrumb>
+        <MDBBreadcrumbItem active>Home</MDBBreadcrumbItem>
+      </MDBBreadcrumb>
+
+      <MDBBreadcrumb>
+        <MDBBreadcrumbItem>Home</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem active>Library</MDBBreadcrumbItem>
+      </MDBBreadcrumb>
+
+      <MDBBreadcrumb>
+        <MDBBreadcrumbItem>Home</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem>Library</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem active>Data</MDBBreadcrumbItem>
+      </MDBBreadcrumb>
+    </MDBContainer>
   );
-}
+};
 
 export default Library;
