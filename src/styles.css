@@ -74,7 +74,7 @@ body {
 
 .AlertBanner {
   padding: 10px;
-  background-color: firebrick;
+  background-color: rgb(26, 30, 230);
   color: #fff;
   top: 0;
   right: 0;
