@@ -7,7 +7,7 @@ const AlertBanner = () => {
         showIcon
         type="warning"
         title="Warning"
-        description="This is a warning notice about copywriting."
+        description="The Covid-19 Tracker is under development.. & we also doing some test so its possible that you see change at any time."
       />
     </div>
   );
