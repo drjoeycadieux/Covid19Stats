@@ -1,14 +1,15 @@
-import React from "react";
+import { Message } from "rsuite";
 
 const AlertBanner = () => {
   return (
-    <div className="AlertBanner">
-      <h1 className="text">
-        <i class="fas fa-exclamation-triangle"></i> Canada COVID-19 TRACKER{" "}
-        <i class="fas fa-viruses"></i> (Powered By Covid-19 projects)
-      </h1>
+    <div className="message">
+      <Message
+        showIcon
+        type="warning"
+        title="Warning"
+        description="This is a warning notice about copywriting."
+      />
     </div>
   );
 };
-
 export default AlertBanner;

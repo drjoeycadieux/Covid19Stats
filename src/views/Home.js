@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Home(props) {
   return (
     <div>
       <header>
@@ -28,10 +28,7 @@ function Home() {
               <p class="mt-1">
                 For the most up to date information regarding COVID-19 in
                 Canada, please consult
-                <a
-                  class="border-b border-dotted"
-                  href="https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx"
-                >
+                <a class="border-b border-dotted" href="dashboard">
                   Canada Deptartment of Health
                 </a>
                 . This site should not be used for life saving information -

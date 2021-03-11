@@ -17,14 +17,6 @@ body {
 a {
   color: #0a44ff;
 }
-.alert-banner {
-  background: rgb(189, 66, 66);
-  color: white;
-  padding: 1rem 20px;
-  border-radius: 5px;
-  max-width: 75%;
-  margin-left: 19%;
-}
 
 h1#one {
   color: rgb(3, 3, 134);
@@ -72,15 +64,6 @@ body {
   padding: 20px;
 }
 
-.AlertBanner {
-  padding: 10px;
-  background-color: firebrick;
-  color: #fff;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
 .header h1 {
   padding: 0;
   margin: 0;
@@ -90,4 +73,18 @@ body {
 h1.text {
   font-size: 15px;
   padding-bottom: 10px;
+}
+.alert-banner {
+  background: rgb(189, 66, 66);
+  color: white;
+  padding: 1rem 20px;
+  border-radius: 5px;
+  max-width: 70%;
+  margin-left: 19%;
+}
+.message {
+  padding: 1rem 15px;
+  border-radius: 5px;
+  max-width: 70%;
+  margin-left: 19%;
 }
