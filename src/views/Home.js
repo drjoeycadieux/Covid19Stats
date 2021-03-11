@@ -1,4 +1,5 @@
 import React from "react";
+import { Tag, TagGroup } from "rsuite";
 
 function Home(props) {
   return (
@@ -6,7 +7,9 @@ function Home(props) {
       <header>
         <div class="w-full bg-gray-800 md:pt-20 md:pb-20 text-white">
           <div class="lg:max-w-5xl mx-auto md:px-4 p-4">
-            <h1 class="text-4xl font-bold">Canada COVID-19 Tracker</h1>
+            <h1 class="text-4xl font-bold">
+              Canada COVID-19 Tracker <Tag color="red">Development</Tag>{" "}
+            </h1>
             <h4 class="text-xs">
               Source:
               <a
