@@ -1,18 +1,14 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div class="pb-4">
-      <h4 class="text-xs">
-        Developed by Joey Cadieux &middot;{" "}
-        <a class="text-blue-600" href="mailto:joeycadieux161@gmail.com">
-          <button className="btn"> Contact Me </button>
-        </a>
-        &middot;
-        <a class="text-blue-600" href="https://forms.gle/Hqve4wC3xmdruhhJA">
-          <button className="btn"> Found an issue?</button>
-        </a>
-      </h4>
+    <div className="footer">
+      <p>
+        © 2021 Covid-19 Tracker rights reserved - Not Associated with the
+        Goverment
+      </p>
+      <p>Privacy · Terms · Sitemap · Company Details</p>
     </div>
   );
 };
