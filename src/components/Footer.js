@@ -8,7 +8,7 @@ const Footer = () => {
         © 2021 Covid-19 Tracker rights reserved - Not Associated with the
         Goverment
       </p>
-      <p>Privacy · Terms · Sitemap · Company Details</p>
+      <p>Contact Us · Terms · Sitemap · Company Details · Administrator </p>
     </div>
   );
 };

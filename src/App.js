@@ -1,15 +1,15 @@
 import "./styles.css";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
-import AlertBanner from "./components/AlertBanner";
-import Card from "./components/Card";
+import ContentContainer from "./components/ContentContainer";
 
 export default function App() {
   return (
     <div className="App">
       <Home />
-      <AlertBanner />
-      <Card />
+      <br />
+      <ContentContainer />
+      <br />
       <Footer />
     </div>
   );
